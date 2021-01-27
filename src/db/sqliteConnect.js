@@ -18,7 +18,7 @@ process.on('SIGINT', () => {
     server.close();
 });
 
-module.exports = {
+export default {
 
     query: (sql, all = true) => {
         try {
@@ -38,4 +38,5 @@ module.exports = {
             throw new Error(error);
         }
     }
+
 }
