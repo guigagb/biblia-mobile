@@ -6,7 +6,7 @@ import getters from "./getters"
 import mutations from "./mutations"
 import * as actions from "./actions"
 
-// import funcionarios from "@/pages/Funcionarios/store"
+import biblia from "../pages/biblia/store"
 
 Vue.use(Vuex)
 
@@ -16,6 +16,6 @@ export default new Vuex.Store({
     mutations,
     actions,
     modules: {
-        // funcionarios,
+        biblia,
     },
 })
